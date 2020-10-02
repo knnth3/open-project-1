@@ -7,8 +7,8 @@ public class HoverObject : MonoBehaviour
     // Public variables
     public Transform Center = null;
     [Min(0)]
-    public float Frequency = 1; // Units are in milli-units per Second
-    public Vector2 YBounds = Vector2.one; // Units are in milli-units
+    public float Frequency = 1; //  units per second
+    public Vector2 YBounds = Vector2.one;
 
     // Private variables
     private Transform transformCache;
